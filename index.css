@@ -1,0 +1,44 @@
+.mainContainer {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    height: 98vh;
+    width: 500px;
+    background-size: cover;
+    border: 1px solid #25b1cc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sectionInner {
+    height: 100px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin: 0px;
+}
+
+button{
+    width: 100px;
+    border: none;
+
+    background-color:#25b1cc ;
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius:5px ;
+    margin: 3px;
+    cursor: pointer;
+}

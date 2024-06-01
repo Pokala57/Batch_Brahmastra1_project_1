@@ -1,8 +1,11 @@
+body{
+    font-family: sans-serif;
+}
 .mainContainer {
- 
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
 .innerContainer {
@@ -14,6 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    /* border: 1px solid red */
 }
 
 .sectionInner {
@@ -41,4 +45,66 @@ button{
     border-radius:5px ;
     margin: 3px;
     cursor: pointer;
+}
+
+/* index.css */
+.hidden {
+    display: none;
+}
+
+.innerCont{ 
+    border: 2px solid blue;
+    height: 100vh;
+    width: 800px;
+    display: flex;
+    flex-direction:row;
+    justify-content:end ;
+    align-items:end ;
+}
+
+.secondInner{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    height: 98vh;
+    width: 500px;
+    background-size: cover;
+    border: 1px solid #25b1cc;
+
+
+}
+.secondContPad{
+    padding: 15px;
+}
+
+.placesCard{
+    /* border: 1px solid red; */
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin:10px;
+
+}
+
+.placesCardFirstCont{
+    width: 70%;
+    /* border: 1px solid red; */
+
+    
+}
+
+.placesCardFirstCont h5{
+   font-size: 18px;
+   margin: 0px;
+}
+
+.placesCardSecCont{
+    width: 20%;
+}
+
+
+.placesCardSecCont img{ 
+  width: 130px;
+  height: 100px;
+  object-fit: cover;
 }

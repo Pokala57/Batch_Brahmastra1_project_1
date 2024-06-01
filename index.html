@@ -6,19 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Show Section by ID</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-   
 </head>
 
-
 <body>
-
-
-    <div class="mainContainer" >
+    <!-- HTML -->
+    <div class="mainContainer" id="firstContainer">
         <div class="innerContainer">
             <div class="sectionInner">
-                <h2>Tourism </h2>
-                <button>Explore</button>
+                <h2>Tourism</h2>
+                <button onclick="display('secondContainer')">Explore</button>
             </div>
+        </div>
+
+
+    </div>
+
+    <div class="mainContainer hidden" id="secondContainer">
+        <div class="secondInner secondContPad ">
+            <h1>Favourite Places</h1>
+            <div class="placesCard">
+                <div class="placesCardFirstCont">
+                    <h5>Taj Mahal</h5>
+                    <p>If there was just one symbol to represent all of India, it would be the Taj Mahal</p>
+
+
+                </div>
+                <div class="placesCardSecCont">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" />
+                </div>
+
+
+            </div>
+            <div class="placesCard">
+                <div class="placesCardFirstCont">
+                    <h5>Mysore Palace</h5>
+                    <p>The Mysore Palace is a historical palace and the royal residence at Mysore .</p>
+
+
+                </div>
+                <div class="placesCardSecCont">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace-img.png" />
+                </div>
+
+
+            </div>
+            <div class="placesCard">
+                <div class="placesCardFirstCont">
+                    <h5>Golden Temple </h5>
+                    <p>Amritsar is world-famous for the beautiful and highly revered Golden Temple</p>
+
+
+                </div>
+                <div class="placesCardSecCont">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png" />
+                </div>
+
+
+            </div>
+            <div class="placesCard">
+                <div class="placesCardFirstCont">
+                    <h5>Varanasi Temple</h5>
+                    <p>Varanasi Temple is most famous Hindu temples dedicated to Lord Shiva</p>
+
+
+                </div>
+                <div class="placesCardSecCont">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi-temple-img.png" />
+                </div>
+
+
+            </div>
+            <button onclick="display('firstContainer')">Back</button>
 
         </div>
 
@@ -27,8 +85,9 @@
 
 
 
-    <script src="script.js"></script>
 
+
+    <script src="index.js"></script>
 </body>
 
 </html>

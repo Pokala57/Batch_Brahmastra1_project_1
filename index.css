@@ -83,6 +83,7 @@ button{
     background-color: white;
     border-radius: 10px;
     margin:10px;
+    cursor: pointer;
 
 }
 
@@ -108,3 +109,21 @@ button{
   height: 100px;
   object-fit: cover;
 }
+
+.inDetailContainer{
+    /* border: 1px solid red; */
+    height: 80%;
+    background-color: white;
+}
+
+
+
+.inDetailContainer img{
+  width: 100%;
+}
+
+
+.inDetailContainer p{
+   padding: 5px;
+}
+

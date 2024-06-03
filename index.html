@@ -24,7 +24,7 @@
     <div class="mainContainer hidden" id="secondContainer">
         <div class="secondInner secondContPad ">
             <h1>Favourite Places</h1>
-            <div class="placesCard">
+            <div class="placesCard" onclick="display('thirdContainer')">
                 <div class="placesCardFirstCont">
                     <h5>Taj Mahal</h5>
                     <p>If there was just one symbol to represent all of India, it would be the Taj Mahal</p>
@@ -82,8 +82,25 @@
 
     </div>
 
+    <div class="mainContainer hidden" id="thirdContainer">
+        <div class="secondInner secondContPad ">
+            <h1>Detail view </h1>
+            <div class="inDetailContainer">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-c1-img.png" />
+                <p> The Taj Mahal is considered to be the greatest architectural achievement
+                    in the whole range of Indo-Islamic architecture. Its recognised
+                    architectonic beauty has a rhythmic combination of solids and voids,
+                    concave and convex and light shadow; such as arches and domes further
+                    increases the aesthetic aspect. Not a piece of architecture, as other
+                    buildings are, but the proud passions of an emperor’s love wrought in
+                    living stones.</p>
 
 
+            </div>
+            <button onclick="display('secondContainer')">Back</button>
+        </div>
+
+    </div>
 
 
 
